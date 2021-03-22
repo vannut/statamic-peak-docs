@@ -1,7 +1,7 @@
 module.exports = {
   themeConfig: {
     logo:
-      'https://camo.githubusercontent.com/2f1cf6ca13f9a57097adba1bddd20c526082cee5e8ec34251f44db72e22e9fb2/68747470733a2f2f63646e2e73747564696f313930322e6e6c2f6173736574732f73746174616d69632d7065616b2f73746174616d69632d7065616b2d6c6f676f2e706e673f763d32',
+      '/statamic-peak-logo.svg',
     navbar: [
       // NavbarItem
       {
