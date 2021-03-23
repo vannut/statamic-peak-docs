@@ -1,7 +1,9 @@
 module.exports = {
+  title: 'Statamic Peak Docs',
+  description:
+    'Documentation for Statamic Peak, an opinionated starter kit for all your Statamic sites.',
   themeConfig: {
-    logo:
-      '/statamic-peak-logo.svg',
+    logo: '/statamic-peak-logo.svg',
     navbar: [
       // NavbarItem
       {
@@ -11,8 +13,7 @@ module.exports = {
     ],
     sidebar: [
       {
-        isGroup: true,
-        text: 'Getting Started',
+        title: 'Getting Started',
         children: [
           '/getting-started/browser-support.md',
           '/getting-started/knowledge-assumptions.md',
@@ -21,8 +22,7 @@ module.exports = {
         ],
       },
       {
-        isGroup: true,
-        text: 'Features',
+        title: 'Features',
         children: [
           '/features/assets.md',
           '/features/bard.md',
@@ -41,8 +41,7 @@ module.exports = {
         ],
       },
       {
-        isGroup: true,
-        text: 'Other',
+        title: 'Other',
         children: [
           '/other/configuration-changes.md',
           '/other/deployment-script.md',
@@ -55,8 +54,7 @@ module.exports = {
         ],
       },
       {
-        isGroup: true,
-        text: 'Contributing & License',
+        title: 'Contributing & License',
         children: ['/other/contributing.md', '/other/license.md'],
       },
     ],
