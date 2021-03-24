@@ -23,7 +23,7 @@ Peak changes the default Statamic config. The following is different:
 | `config/statamic/stache.php` | `'watcher' => true` | `'watcher' => env('STATAMIC_STACHE_WATCHER', true)` |
 | `config/statamic/static_caching.php` | `rules' => [ // ]` | `'rules' => 'all'` |
 | `config/statamic/users.php` | `'avatars' => 'initials'` | `'avatars' => 'gravatar'` |
-| `routes/console.php` |  | A `php artisan warm` command to [warm the static cache](#warm-all-caches). 
+| `routes/console.php` |  | A `php artisan statamic:peak:warm` command to [warm the static cache](#warm-all-caches). 
 | `routes/web.php` |  | Routes for the [favicons](#favicons) feature.  
 | `routes/web.php` |  | Routes for the search [functionality](#search). Commented by default.
 | `routes/web.php` |  | Routes for the sitemap and [dynamic form](#forms) token.  

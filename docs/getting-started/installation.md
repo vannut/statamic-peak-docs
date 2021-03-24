@@ -4,6 +4,8 @@
 
 The easiest way to install Statamic together with Peak is to use the [official CLI](https://github.com/statamic/cli). Install the CLI by running `composer global require statamic/cli` and for each project just run `statamic new my-site` and pick Peak as a starter kit. Alternatively you can skip this manual selection by running: `statamic new my-site --starter="studio1902/statamic-peak"`.
 
+Run `npm i && npm run dev` to compile your frontend assets or `npm run watch` to watch for any changes you make.
+
 ## Manual installation.
 
 **1. Create a new site** - cloning the repo and removing the origin repo.
