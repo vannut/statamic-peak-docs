@@ -7,8 +7,10 @@ Peak includes full SEO support. It's easy to expand on since it's all built with
 * Website title and seperator.
 * Meta description.
 * Canonical URL.
-* Open Graph data and images.
+* Open Graph data and image.
 * Default Open Graph image.
+* Twitter card and image.
+* Default Twitter card image.
 * Auto generated sitemap.xml.
 * Customize the sitemap: which collections are included and per entry frequency and priority settings.
 * No-index for entries, also excludes from sitemap.
