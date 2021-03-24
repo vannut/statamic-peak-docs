@@ -6,8 +6,6 @@ The aim of Peak is to make it easy to start new projects as they often share muc
 
 These docs are setup using VuePress by [Robert Guss](https://github.com/robertguss/). Thank you so much!
 
-[Read the docs](https://peak.studio1902.nl)
-
 [Peak on GitHub](https://github.com/studio1902/statamic-peak)
 
 [Discuss Peak on Discord](https://discord.gg/sW7KXWaucH)
