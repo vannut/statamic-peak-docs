@@ -2,6 +2,9 @@ module.exports = {
   title: 'Statamic Peak Docs',
   description:
     'Documentation for Statamic Peak, an opinionated starter kit for all your Statamic sites.',
+  head: [
+    ['script', { src: 'https://cdn.usefathom.com/script.js', dataSite: 'CCKEJUTO', defer: true }]
+  ],
   themeConfig: {
     logo: '/statamic-peak-logo.svg',
     navbar: [
