@@ -4,7 +4,7 @@ Statamic Peak is an opinionated starter kit for all your Statamic sites. It's de
 
 The aim of Peak is to make it easy to start new projects as they often share much of the same principles. Whether you're new to Statamic or a veteran, there will be something interesting in here for you. Please participate and discuss on how to make our websites better.
 
-These docs are setup using VuePress by [Robert Guss](robertguss/). Thank you so much!
+These docs are setup using VuePress by [Robert Guss](https://github.com/robertguss/). Thank you so much!
 
 [Read the docs](https://peak.studio1902.nl)
 
