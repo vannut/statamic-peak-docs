@@ -11,10 +11,10 @@ If the layout of a page is totally different - or you really want to - you can a
 ## Adding blocks
 Edit `resources/fieldsets/page_builder.yaml` to add blocks (preferably imports) to the fieldset. In `resources/views/default.antlers.html` you can see the blocks being loaded. Antlers will look in the `resources/views/page_builder/` folder for partials with the handle of your block. Peak ships with the following blocks:
 
-* Article ([`long form content`](#bard))
+* Article ([long form content](/features/bard))
 * Call to action (title, text and a button)
 * Collection (title and links to other entries)
-* [Forms](#forms)
+* [Forms](/features/forms)
 * Link blocks (blocks with a title and text that link to other entries)
 
 For example if you add a fieldset to the `page_builder.yaml` with the handle `call_to_action` make sure you add a `_call_to_action.antlers.html` file to the `resources/views/page_builder` folder.

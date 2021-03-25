@@ -6,6 +6,11 @@ module.exports = {
     ['script', { src: 'https://cdn.usefathom.com/script.js', 'data-site': 'CCKEJUTO', defer: true }]
   ],
   themeConfig: {
+    repo: 'studio1902/statamic-peak-docs',
+    editLinks: true,
+    docsDir: 'docs',
+    editLinkText: 'Improve this page on GitHub',
+    docsBranch: 'main',
     logo: '/statamic-peak-logo.svg',
     navbar: [
       // NavbarItem
@@ -62,6 +67,8 @@ module.exports = {
           '/other/lighthouse.md',
           '/other/localization.md',
           '/other/reduced-motion.md',
+          '/other/tags.md',
+          '/other/toolbar.md',
           '/other/upcoming-features.md',
           '/other/warm-all-caches.md',
         ],
@@ -72,4 +79,8 @@ module.exports = {
       },
     ],
   },
+  plugins: [
+    '@vuepress/last-updated',
+    '@vuepress/active-header-links'
+  ]
 };

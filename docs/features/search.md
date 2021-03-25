@@ -10,7 +10,7 @@ as the last list item in the main ul in `resources/views/navigation/_main.antler
 * Uncomment the search results route  in `routes/web.php`.
 * Add fields you want indexed to the index in `config/statamic/search.php`. The `page_builder` field is added by default.
 * Update the search index by running `php please search:update --all`.
-* Make sure you add the update command to your [deployment script](#deployment-script).
+* Make sure you add the update command to your [deployment script](/other/deployment-script).
 
 > Note: the strings used in search form and result templates are translatable and can be edited in `resources/lang/en/site.php`.
 
