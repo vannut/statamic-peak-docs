@@ -24,10 +24,6 @@ module.exports = {
         text: 'GitHub Peak', 
         link: 'https://github.com/studio1902/statamic-peak' 
       },
-      { 
-        text: 'GitHub Docs', 
-        link: 'https://github.com/studio1902/statamic-peak-docs' 
-      },
     ],
     sidebar: [
       {

@@ -8,6 +8,8 @@ These docs are setup using VuePress by [Robert Guss](https://github.com/robertgu
 
 [Peak on GitHub](https://github.com/studio1902/statamic-peak)
 
+[Changelog](https://github.com/studio1902/statamic-peak/blob/main/CHANGELOG.md)
+
 [Discuss Peak on Discord](https://discord.gg/sW7KXWaucH)
 
 [Peak on Laravel News](https://laravel-news.com/statamic-peak)
