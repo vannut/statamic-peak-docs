@@ -6,24 +6,16 @@ module.exports = {
     ['script', { src: 'https://cdn.usefathom.com/script.js', 'data-site': 'CCKEJUTO', defer: true }]
   ],
   themeConfig: {
-    repo: 'studio1902/statamic-peak-docs',
+    repo: 'studio1902/statamic-peak',
+    docsRepo: 'studio1902/statamic-peak-docs',
     editLinks: true,
     docsDir: 'docs',
     editLinkText: 'Improve this page on GitHub',
     docsBranch: 'main',
     logo: '/statamic-peak-logo.svg',
-    navbar: [
-      // NavbarItem
-      {
-        text: 'Statamic Peak',
-        link: 'https://github.com/studio1902/statamic-peak',
-      },
-    ],
     nav: [
-      { 
-        text: 'GitHub Peak', 
-        link: 'https://github.com/studio1902/statamic-peak' 
-      },
+      { text: 'Discord', link: 'https://discord.gg/sW7KXWaucH'},
+      { text: 'Changelog', link: 'https://github.com/studio1902/statamic-peak/blob/main/CHANGELOG.md'},
     ],
     sidebar: [
       {
@@ -57,6 +49,7 @@ module.exports = {
       {
         title: 'Other',
         children: [
+          '/other/awesome.md',
           '/other/configuration-changes.md',
           '/other/deployment-script.md',
           '/other/focus-visible.md',
