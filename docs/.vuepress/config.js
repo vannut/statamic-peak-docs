@@ -71,7 +71,6 @@ module.exports = {
   plugins: [
     '@vuepress/last-updated',
     '@vuepress/active-header-links',
-    'sitemap'
   ],
   plugins: {
     'sitemap': {
