@@ -9,5 +9,8 @@
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs"
+  },
+  "dependencies": {
+    "vuepress-plugin-sitemap": "^2.3.1"
   }
 }

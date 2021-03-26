@@ -70,6 +70,12 @@ module.exports = {
   },
   plugins: [
     '@vuepress/last-updated',
-    '@vuepress/active-header-links'
-  ]
+    '@vuepress/active-header-links',
+    'sitemap'
+  ],
+  plugins: {
+    'sitemap': {
+      hostname: 'https://peak.studio1902.nl'
+    },
+  },
 };
