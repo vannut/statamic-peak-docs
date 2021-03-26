@@ -10,7 +10,7 @@ Peak comes with a picture partial that will add responsive sourcesets to your im
 
 The following example renders an image and object-fills it's wrapping container: 
 
-```
+```html
 {{ partial:components/picture :image="image" cover="true" class="w-full h-full" sizes="(min-width: 768px) 35vw, 90vw" }}
 ```
 
@@ -21,8 +21,7 @@ See [this article](https://studio1902.nl/blog/responsive-images-with-statamic-ta
 ## Background images
 Peak comes with a background image snippet you can use to apply responsive images (WebP included) to an elements background. Just use 
 
-```
+```html
 {{ partial:snippets/background_image image="YOUR_IMAGE" class="CLASS_OF_ELEMENT_THAT_NEEDS_BG_IMAGE" }}
-
 ```
 The predefined sizes used in `resources/views/snippets/_background_image.antlers.html` are defined in `config/statamic/assets.php`.

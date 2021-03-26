@@ -9,7 +9,7 @@ For example if you add a fieldset to the `article.yaml` with the handle `code` m
 
 > Note: sets are scoped under `set` to avoid collision with other fields. Make sure you reference variables in a block like this: 
 
-```
+```html
 {{ set:field_name }}
 ```
 

@@ -11,11 +11,11 @@ The files `resources/fieldsets/buttons.yaml` and `resources/views/components/_bu
 In some cases you don't want to render dynamic buttons but a button to a specific entry or URL. This is possible using any of the following methods.
 
 Link to the index page the collection `news` is mounted on:
-```
+```html
 {{ partial:components/button label="All news" link_type="url" url="{mount_url from='news'}" }}
 ```
 
 Or link to a single entry:
-```
+```html
  {{ partial:components/button label="Read more about this entry" link_type="entry" :entry="entry" }}
 ```

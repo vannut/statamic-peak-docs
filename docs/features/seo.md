@@ -38,14 +38,14 @@ Peak includes full SEO support. It's easy to expand on since it's all built with
 If you plan on using an addon for SEO and Peak's built in features, do the following:
 * Remove
 
-```
+```html
 {{ partial:snippets/seo }}
 ```
 from `resources/views/layout.antlers.html`.
 
 * Remove
 
-```
+```html
 {{ yield:seo_body }}
 ``` 
 from `resources/views/layout.antlers.html`.

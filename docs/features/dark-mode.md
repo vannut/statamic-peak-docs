@@ -7,14 +7,14 @@ If you want to use [class based dark mode](https://tailwindcss.com/docs/dark-mod
 1. Uncomment `darkMode: 'class'` in `tailwind.config.js`.
 2. Add
 
-```
+```html
 {{ partial:components/dark_mode_toggle }}
 ``` 
 to the `<head>` in `resources/views/layout.antlers.html`.
 
 3. Add 
 
-```
+```html
 {{ yield:dark_mode_toggle }}
 ```
 as the last list item in the main ul in `resources/views/navigation/_main.antlers.html`.
