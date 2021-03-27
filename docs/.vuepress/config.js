@@ -6,17 +6,23 @@ module.exports = {
     ['script', { src: 'https://cdn.usefathom.com/script.js', 'data-site': 'CCKEJUTO', defer: true }]
   ],
   themeConfig: {
+    algolia: {
+      apiKey: '0149417b12bc475858a29a2dae34d0a',
+      indexName: 'studio1902'
+    },
     repo: 'studio1902/statamic-peak',
     docsRepo: 'studio1902/statamic-peak-docs',
     editLinks: true,
     docsDir: 'docs',
     editLinkText: 'Improve this page on GitHub',
     docsBranch: 'main',
+    lastUpdated: 'Last updated',
     logo: '/statamic-peak-logo.svg',
     nav: [
       { text: 'Discord', link: 'https://discord.gg/sW7KXWaucH'},
       { text: 'Changelog', link: 'https://github.com/studio1902/statamic-peak/blob/main/CHANGELOG.md'},
     ],
+    searchPlaceholder: 'Search...',
     sidebar: [
       {
         title: 'Getting Started',
@@ -68,13 +74,12 @@ module.exports = {
       },
     ],
   },
-  plugins: [
-    '@vuepress/last-updated',
-    '@vuepress/active-header-links',
-  ],
   plugins: {
     'sitemap': {
       hostname: 'https://peak.studio1902.nl'
     },
   },
+  plugins: [
+    '@vuepress/active-header-links',
+  ],
 };
