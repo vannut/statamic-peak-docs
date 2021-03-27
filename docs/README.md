@@ -6,4 +6,4 @@ The aim of Peak is to make it easy to start new projects as they often share muc
 
 Maintaining Peak demands a lot of my time and it probably saves you a lot. Your sponsoring would mean a great deal to me as it makes it much easier for me to maintain this project and keep improving it. 
 
-[Please consider sponsiring me](https://github.com/sponsors/studio1902).
+[Please consider sponsoring me](https://github.com/sponsors/studio1902).
