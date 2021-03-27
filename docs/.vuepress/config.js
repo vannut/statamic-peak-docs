@@ -7,7 +7,7 @@ module.exports = {
   ],
   themeConfig: {
     algolia: {
-      apiKey: '0149417b12bc475858a29a2dae34d0a',
+      apiKey: '0149417b12bc475858a29a2dae34d0af',
       indexName: 'studio1902'
     },
     repo: 'studio1902/statamic-peak',
@@ -22,6 +22,7 @@ module.exports = {
       { text: 'Discord', link: 'https://discord.gg/sW7KXWaucH'},
       { text: 'Changelog', link: 'https://github.com/studio1902/statamic-peak/blob/main/CHANGELOG.md'},
     ],
+    search: false,
     searchPlaceholder: 'Search...',
     sidebar: [
       {
