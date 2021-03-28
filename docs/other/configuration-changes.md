@@ -6,11 +6,13 @@ Peak changes the default Statamic config. The following is different:
 | --- | --- | --- |
 | `.env.example` |  | Add more default Statamic and Redis settings by default.  
 | `app/console/Kernel.php` |  | Add a schedule you can invoke via a cron to [warm all caches](/other/warm-all-caches).
+| `app/Console/Commands/WarmCommand.php` |  | A `php artisan statamic:peak:warm` command to [warm the static cache](/other/warm-all-caches). 
 | `app/Http/Controllers/DynamicToken.php` |  | New Controller for [forms](/features/forms) |
 | `app/Http/Middleware/VerifyCsrfToken.php` | `protected $except = []` | `protected $except = ['/!/DynamicToken']` |
 | `app/listeners/GenerateFavicons.php` |  | Listen to a GlobalSavedEvent to generate [favicons](/features/favicons).
 | `app/providers/EventServiceProvider.php` |  | Listen to a GlobalSavedEvent to generate [favicons](/features/favicons).
 | `app/Tags/MountUrl.php` |  | New Tag to get a mount url [tags](/other/tags) |
+| `content/assets/favicons.yaml` |  | An asset container where the [automated favicon feature](/features/favicons) stores it's favicons in. |
 | `config/statamic/assets.php` | `driver' => 'gd'` | `'driver' => env('IMAGE_MANIPULATION_DRIVER', 'gd')` |
 | `config/statamic/assets.php` | `'cache' => false` | `'cache' => env('SAVE_CACHED_IMAGES', true),` |
 | `config/statamic/assets.php` | `'presets' => []` | Contains a whole bunch of asset presets. |
@@ -23,7 +25,6 @@ Peak changes the default Statamic config. The following is different:
 | `config/statamic/stache.php` | `'watcher' => true` | `'watcher' => env('STATAMIC_STACHE_WATCHER', true)` |
 | `config/statamic/static_caching.php` | `rules' => [ // ]` | `'rules' => 'all'` |
 | `config/statamic/users.php` | `'avatars' => 'initials'` | `'avatars' => 'gravatar'` |
-| `routes/console.php` |  | A `php artisan statamic:peak:warm` command to [warm the static cache](/other/warm-all-caches). 
 | `routes/web.php` |  | Routes for the [favicons](/features/favicons) feature.  
 | `routes/web.php` |  | Routes for the search [functionality](/features/search). Commented by default.
 | `routes/web.php` |  | Routes for the sitemap and [dynamic form](/features/forms) token.  
