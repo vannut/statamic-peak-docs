@@ -32,7 +32,7 @@ php please make:user
 npm i && npm run watch (or npm run dev)
 ```
 
-To compile for production run this (on your server). It will purge all unnecessary utility classes and greatly reduce file size:
+To compile for production run this (on your server). Since Peak uses the Tailwind JIT compiler this won't purge anything, but it will minify your assets:
 
 ```bash
 npm run production
