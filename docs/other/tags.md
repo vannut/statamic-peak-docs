@@ -9,5 +9,5 @@ Thanks [Simon Bédard](https://statamic.com/forum/4925-get-url-of-page-with-moun
 
 You can combine this with the button partial like this:
 ```html
- {{ partial:components/button label="{trans:strings.news_all}" link_type="url" url="{mount_url from='news'}" }}
+ {{ partial:components/button label="{trans:strings.news_all}" button_type="inline" link_type="url" url="{mount_url from='news'}" }}
 ```
