@@ -15,7 +15,7 @@ field. In the template partial for your block you could do the following:
 This will render the title with the styling defined in `typography/h1`. This way you ensure the same styling throughout your website without having to add or edit Tailwinds utility classes in multiple template files. Exceptions are possible. You can change the tag, text color and add classes when you need to:
 
 ```html
-{{ partial:typography/h1 tag="span" color="text-error-600" class="mb-8" :content="block:title" }}
+{{ partial:typography/h1 as="span" color="text-error-600" class="mb-8" :content="block:title" }}
 ```
 
 Peak comes with a few defaults that are easy to style. Add as many partials your website needs.
