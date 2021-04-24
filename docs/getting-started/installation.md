@@ -42,4 +42,4 @@ npm run production
 
 ## Install in existing Laravel project
 
-[Job Verplanke](https://github.com/jobverplanke) is working on a package to install Peak into your current Laravel project. [The package](https://github.com/studio1902/statamic-peak-package) is currently in beta.
+[Job Verplanke](https://github.com/jobverplanke) is working on a package to install Peak into your current Laravel project. [The package](https://github.com/studio1902/statamic-peak-package) is currently in beta and doesn't use the latest Peak version.
