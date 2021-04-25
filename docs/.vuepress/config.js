@@ -1,10 +1,11 @@
 module.exports = {
-  title: 'Statamic Peak Docs',
   description:
     'Statamic Peak, an opinionated starter kit for all your Statamic sites.',
   head: [
     ['script', { src: 'https://cdn.usefathom.com/script.js', 'data-site': 'CCKEJUTO', defer: true }]
   ],
+  theme: 'default-prefers-color-scheme',
+  title: 'Statamic Peak Docs',
   themeConfig: {
     algolia: {
       apiKey: '0149417b12bc475858a29a2dae34d0af',
