@@ -20,7 +20,7 @@ module.exports = {
     lastUpdated: 'Last updated',
     logo: '/statamic-peak-logo.svg',
     nav: [
-      { text: 'Sponsor me', link: 'https://github.com/sponsors/studio1902'},
+      { text: 'Sponsor', link: 'https://github.com/sponsors/studio1902'},
       { text: 'Discord', link: 'https://discord.gg/sW7KXWaucH'},
       { text: 'Changelog', link: 'https://github.com/studio1902/statamic-peak/blob/main/CHANGELOG.md'},
     ],
