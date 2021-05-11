@@ -16,7 +16,7 @@ Once you've installed the required software you can enable the functionality in 
 
 Finally uncomment the Social Images Route in `routes/web.php`. 
 
-Edit `resources/views/social_images.antlers.html` to determine how the images should look. You can go wild with Antlers and Tailwind and even add any field you'd like to use. If you want to preview the images in your browser visit `http://yoursite.test/social-images/{id}`.
+Edit `resources/views/social_images.antlers.html` to determine how the images should look. You can go wild with Antlers and Tailwind and add any field you'd like to use. If you want to preview the images in your browser visit `http://yoursite.test/social-images/{id}`.
 
 ## Generate the images
 Once you've opted in the collections you want this available for you can select the entries you want to generate images for in the collection view.
