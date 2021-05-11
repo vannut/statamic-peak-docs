@@ -51,6 +51,7 @@ module.exports = {
           '/features/pagination.md',
           '/features/redirects.md',
           '/features/search.md',
+          '/features/social-images-generation.md',
           '/features/seo.md',
           '/features/typography.md',
         ],
