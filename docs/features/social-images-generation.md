@@ -16,6 +16,13 @@ Finally uncomment the Social Images Route in `routes/web.php`.
 
 Edit `resources/views/social_images.antlers.html` to determine how the images should look. You can go wild with Antlers and Tailwind and even add any field you'd like to use. If you want to preview the images in your browser visit `http://yoursite.test/social-images/{id}`.
 
+## Generate the images
+Once you've opted in the collections you want this available for you can select the entries you want to generate images for in the collection view.
+
+| Global configuration | Generating the images |
+|---|---|
+| [![Forms backend](https://cdn.studio1902.nl/assets/statamic-peak/screenshots/v1.28.0/social-images-01.png)](https://cdn.studio1902.nl/assets/statamic-peak/screenshots/v1.28.0/social-images-01.png) | [![Forms frontend](https://cdn.studio1902.nl/assets/statamic-peak/screenshots/v1.28.0/social-images-02.png)](https://cdn.studio1902.nl/assets/statamic-peak/screenshots/v1.28.0/social-images-02.png) |
+
 ## Remove feature
 By default the toggle to turn this feature on is only visibles to superusers. However if you completely want to remove this feature do the following:
 
