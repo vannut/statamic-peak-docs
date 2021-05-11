@@ -1,4 +1,6 @@
-# Dark mode (off)
+# Dark mode
+
+> You need to manually enable this feature.
 
 In Tailwind you can enable [default dark mode](https://tailwindcss.com/docs/dark-mode) by uncommenting `darkMode: 'media',` in `tailwind.config.js`. This way your website will react to the users OS wide `prefers-color-scheme`.
 
