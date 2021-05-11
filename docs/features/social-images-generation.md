@@ -1,6 +1,6 @@
 # Social images generation (off)
 
-Peak can generate your social sharing images (OG and Twitter) and add them to your entries. To use this feature you need to [install Browsershot](https://github.com/spatie/browsershot) and its dependencies. 
+Peak can generate your social sharing images (OG and Twitter) and add them to your entries. To use this feature you need to [install Browsershot](https://github.com/spatie/browsershot) and its dependencies. A big thanks to [Spatie](http://spatie.be) and [Puppeteer](https://github.com/puppeteer/puppeteer/)!
 
 ## Installation and configuration
 On your development machine you can do this by running the following commands:
