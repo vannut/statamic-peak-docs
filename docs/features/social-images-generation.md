@@ -31,5 +31,4 @@ By default the toggle to turn this feature on is only visibles to superusers. Ho
 * Delete the `toggle` and `collections` from `resources/blueprints/globals/seo.yaml`
 * Delete the action `app/actions/GenerateSocialImages.php`.
 * Delete the template `social_images.antlers.html`.
-* Delete the template `social_images.antlers.html`.
 * Delete the route from `routes/web.php`.
