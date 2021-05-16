@@ -25,6 +25,14 @@ Once you've opted in the collections you want this available for you can select 
 |---|---|
 | [![Forms backend](https://cdn.studio1902.nl/assets/statamic-peak/screenshots/v1.28.0/social-images-01.png)](https://cdn.studio1902.nl/assets/statamic-peak/screenshots/v1.28.0/social-images-01.png) | [![Forms frontend](https://cdn.studio1902.nl/assets/statamic-peak/screenshots/v1.28.0/social-images-02.png)](https://cdn.studio1902.nl/assets/statamic-peak/screenshots/v1.28.0/social-images-02.png) |
 
+
+## Listable columns
+Note that you could opt to toggle the `Social image` and `Twitter image` fields listable in the collections list view. That way you can or your client an easily scan collections for missing images.
+
+| Listable columns | 
+|---|
+| [![Listable columns](https://cdn.studio1902.nl/assets/statamic-peak/screenshots/v1.28.0/social-images-03.png)](https://cdn.studio1902.nl/assets/statamic-peak/screenshots/v1.28.0/social-images-03.png) |
+
 ## Remove feature
 By default the toggle to turn this feature on is only visibles to superusers. However if you completely want to remove this feature do the following:
 
