@@ -14,6 +14,7 @@ Peak changes the default Statamic config. The following is different:
 | `app/providers/EventServiceProvider.php` |  | Listen to a GlobalSavedEvent to generate [favicons](/features/favicons).
 | `app/Tags/MountUrl.php` |  | New Tag to get a mount url [tags](/other/tags) |
 | `content/assets/favicons.yaml` |  | An asset container where the [automated favicon feature](/features/favicons) stores it's favicons in. |
+| `config/filesystems.php` |  | Filesystems for the Favicon and Social Images assets. |
 | `config/statamic/assets.php` | `driver' => 'gd'` | `'driver' => env('IMAGE_MANIPULATION_DRIVER', 'gd')` |
 | `config/statamic/assets.php` | `'cache' => false` | `'cache' => env('SAVE_CACHED_IMAGES', true),` |
 | `config/statamic/assets.php` | `'presets' => []` | Contains a whole bunch of asset presets. |
