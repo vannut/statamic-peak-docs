@@ -21,7 +21,7 @@ Edit `resources/views/social_images.antlers.html` to determine how the images sh
 ## Redis as queue driver
 The actual generation of the images is a job, so it's queued when you use Redis. To enable Redis as a queue driver make sure it's installed on your server. When you use Ploi or Forge this is done automatically.
 
-Enable Redis by setting `QUEUE_CONNECTION=redis` in your `.env` file. Make sure you start a queue worker in Ploi or Forge for your current site. Use `redis` as a connection and set the corrent `environment`. 
+Enable Redis by setting `QUEUE_CONNECTION=redis` in your `.env` file. Make sure you start a queue worker in Ploi or Forge for your current site. Use `redis` as a connection and set the current `environment`. 
 
 
 ## Generate the images
