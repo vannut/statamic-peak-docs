@@ -1,6 +1,6 @@
 # SEO
 
-Peak includes full SEO support. It's easy to expand on since it's all built with native fields and templating. You can also easily replace it with a professional addon like [Aardvark SEO](https://statamic.com/addons/candour/aardvark-seo) or [SEO Pro](https://statamic.com/addons/statamic/seo-pro).
+Peak includes full SEO support. It's easy to expand on since it's all built with native fields and templating. You can also easily replace it with a third party addon like [Aardvark SEO](https://statamic.com/addons/candour/aardvark-seo) or a first party aeddon like [SEO Pro](https://statamic.com/addons/statamic/seo-pro). However this implementation is already pretty full featured.
 
 ## SEO features
 * Page title.
