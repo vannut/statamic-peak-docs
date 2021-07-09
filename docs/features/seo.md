@@ -31,7 +31,7 @@ Peak includes full SEO support. It's easy to expand on since it's all built with
 |---|
 | [![Page builder](https://cdn.studio1902.nl/assets/statamic-peak/screenshots/v1.18.8/entry-seo.png)](https://cdn.studio1902.nl/assets/statamic-peak/screenshots/v1.18.8/entry-seo.png) |
 
-## Tracking and cookie consent banner
+## Cookie consent banner
 
 When you use Google Analytics or Google Tag Manager you can enable the cookie consent banner to comply with GPDR. The consent banner uses Google's Consent API so you might need to properly set this up in your GTM/Analytics settings.
 
@@ -40,38 +40,3 @@ Users can specify the type of consent they give (analytics, marketing or both). 
 The cookie banner only blocks Google scripts since it uses the consent API, so if you really want to be a marketing-script asshole and bug your users with a Facebook pixel or Hootjar, you can be GDPR compliant by running all those scripts through GTM.
 
 > Note: tracking and cookie consent by default only work on the `production` environment.
-
-## Disable SEO features
-
-If you plan on using an addon for SEO and Peak's built in features, do the following:
-* Remove
-
-```html
-{{ partial:snippets/seo }}
-```
-from `resources/views/layout.antlers.html`.
-
-* Remove
-
-```html
-{{ yield:seo_body }}
-```
-from `resources/views/layout.antlers.html`.
-* Remove the SEO section and import from `resources/blueprints/collections/pages/page.yaml`.
-* Remove the whole
-
-```html
-{{ section:pagination }}{{ /section:pagination }}
-```
-from `resources/views/components/_pagination.antlers.html`.
-
-* Delete the SEO global `content/globals/seo.yaml`.
-
-And optionally to erase all traces:
-* Delete the SEO sitemap view `resources/views/sitemap/sitemap.antlers.html`
-* Delete the SEO global blueprint `resources/blueprints/globals/seo.yaml`.
-* Delete the SEO fieldset `resources/fieldsets/seo.yaml`.
-* Delete the SEO partial `resources/views/snippets/_seo.antlers.html`.
-* Delete the Cookie Banner fieldset: `resources/views/components/_cookie_banner.antlers.html`.
-* Delete the `yield:reset_cookie_consent` tag from `resources/views/layout/_footer.antlers.html`.
-* Delete the sitemap route from: `routes/web.php`.
