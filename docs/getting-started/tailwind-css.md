@@ -15,5 +15,6 @@ Read up on the [Tailwind Forms](https://github.com/tailwindlabs/tailwindcss-form
 > Note: if you don't want to define your custom CSS in Tailwind JS config files you can add it to `resources/css/custom.css`. Make sure to read up on the use of [@layer](https://tailwindcss.com/docs/functions-and-directives#layer) to instruct what styles Tailwind should keep or purge. Use whatever method you prefer.
 
 Peak ships with a few custom Tailwind goodies:
-* `.break-decent`: uses `word-break: break-word`. 
-* `supports-backdrop-blur:`: a variant to check if the browsers supports backdrop filters (backdrop blur). This way you can do condionally change a background opacity for example using `supports-backdrop-blur:bg-opacity-70`. 
+* `.break-decent`: uses `word-break: break-word`.
+* `supports-backdrop-blur:`: a variant to check if the browsers supports backdrop filters (backdrop blur). This way you can do condionally change a background opacity for example using `supports-backdrop-blur:bg-opacity-70`.
+* Style fyle upload form elements by default using your site's theme colors.
