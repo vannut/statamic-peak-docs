@@ -41,9 +41,9 @@ module.exports = {
         children: [
           '/features/assets.md',
           '/features/bard.md',
+          '/features/browser-appearance.md',
           '/features/buttons.md',
           '/features/dark-mode.md',
-          '/features/favicons.md',
           '/features/forms.md',
           '/features/globals.md',
           '/features/navigation.md',
