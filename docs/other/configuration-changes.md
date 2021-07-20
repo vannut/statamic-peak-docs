@@ -27,7 +27,8 @@ Peak changes the default Statamic config. The following is different:
 | `config/statamic/live_preview.php` | Three breakpoints | All tailwinds breakpoints defined in `tailwind.config.js` |
 | `config/statamic/search.php` | `title` in search index | `title`, and `page_builder` in search index |
 | `config/statamic/stache.php` | `'watcher' => true` | `'watcher' => env('STATAMIC_STACHE_WATCHER', true)` |
-| `config/statamic/static_caching.php` | `rules' => [ // ]` | `'rules' => 'all'` |
+| `config/statamic/static_caching.php` | `'rules' => [ // ]` | `'rules' => 'all'` |
+| `config/statamic/static_caching.php` | `'exclude' => [ // ]` | `'exclude' => '/sitemap.xml'` |
 | `config/statamic/users.php` | `'avatars' => 'initials'` | `'avatars' => 'gravatar'` |
 | `routes/web.php` |  | Routes for the [favicons](/features/browser-appearance) feature.
 | `routes/web.php` |  | Routes for the search [functionality](/features/search). Commented by default.
