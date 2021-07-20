@@ -14,6 +14,7 @@ Peak changes the default Statamic config. The following is different:
 | `app/listeners/GenerateFavicons.php` |  | Listen to a GlobalSavedEvent to generate [favicons](/features/browser-appearance).
 | `app/providers/EventServiceProvider.php` |  | Listen to a GlobalSavedEvent to generate [favicons](/features/browser-appearance).
 | `app/Tags/MountUrl.php` |  | New Tag to get a mount url [tags](/other/tags) |
+| `app/Tags/ScopeValue.php` |  | New Tag to scope a value [tags](/other/tags) |
 | `content/assets/favicons.yaml` |  | An asset container where the [automated favicon feature](/features/browser-appearance) stores it's favicons in. |
 | `config/filesystems.php` |  | Filesystems for the Favicon and Social Images assets. |
 | `config/statamic/assets.php` | `driver' => 'gd'` | `'driver' => env('IMAGE_MANIPULATION_DRIVER', 'gd')` |
