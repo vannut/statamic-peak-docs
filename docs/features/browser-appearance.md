@@ -12,6 +12,10 @@ You can set the following properties/meta-tags:
 * Run as Apple mobile web app (and change status bar color).
 * Run as Android mobile web app.
 
+| Browser appearance |
+|---|
+| [![Browser appearance](https://cdn.studio1902.nl/assets/statamic-peak/screenshots/v2.0/browser-appearance.png)](https://cdn.studio1902.nl/assets/statamic-peak/screenshots/v2.0/browser-appearance.png) |
+
 ## Favicons
 By uploading a single favicon SVG to the favicons asset container you can generate favicons for modern browsers on the fly. The favicon partial will spit out the following favicons:
 
@@ -22,3 +26,7 @@ By uploading a single favicon SVG to the favicons asset container you can genera
 * A meta with `name="theme-color"` with a custom color.
 
 > Note: To use the favicon feature you need to have the `PHP Imagick module` installed. Forge users: newer servers ship with this automatically. Ploi users: you can optionally install this with a click in the Ploi interface.
+
+| Favicons |
+|---|
+| [![Favicons](https://cdn.studio1902.nl/assets/statamic-peak/screenshots/v2.0/favicons.png)](https://cdn.studio1902.nl/assets/statamic-peak/screenshots/v2.0/favicons.png) |
