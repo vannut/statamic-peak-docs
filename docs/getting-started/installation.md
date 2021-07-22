@@ -26,7 +26,7 @@ cp .env.example .env && php artisan key:generate
 php please make:user
 ```
 
-**4. Compile the frontend assets** - the [TailwindCSS](https://tailwindcss.com/) compiled assets aren't included in this repo. You need to compile it yourself. Compilation is configured in `webpack.mix.js`. Make sure you add your hostname to your `.env` file (`APP_URL`) as it's being used for Browsersync in `webpack.mix.js`.
+**4. Compile the frontend assets** - the [TailwindCSS](https://tailwindcss.com/) and JS compiled assets are included in this repo, but since we use the Tailwind JIT compiler, as soon as you make changes you need to compile them yourself. Compilation is configured in `webpack.mix.js`. Make sure you add your hostname to your `.env` file (`APP_URL`) as it's being used for Browsersync in `webpack.mix.js`.
 
 ```bash
 npm i && npm run watch (or npm run dev)
