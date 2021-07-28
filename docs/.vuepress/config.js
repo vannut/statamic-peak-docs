@@ -69,7 +69,6 @@ module.exports = {
           '/other/tags.md',
           '/other/toolbar.md',
           '/other/upcoming-features.md',
-          '/other/warm-all-caches.md',
         ],
       },
       {

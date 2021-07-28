@@ -5,9 +5,8 @@ Peak changes the default Statamic config. The following is different:
 | File | Default | Peak |
 | --- | --- | --- |
 | `.env.example` |  | Add more default Statamic and Redis settings by default.
-| `app/console/Kernel.php` |  | Add a schedule you can invoke via a cron to [warm all caches](/other/warm-all-caches).
+| `app/console/Kernel.php` |  | Add a schedule you can invoke via a cron to warm all caches.
 | `app/Actions/GenerateSocialImages.php` |  | An action to [generate social images](https://peak.studio1902.nl/features/social-images-generation.html) for entries.
-| `app/Console/Commands/WarmCommand.php` |  | A `php artisan statamic:peak:warm` command to [warm the static cache](/other/warm-all-caches).
 | `app/Http/Controllers/DynamicToken.php` |  | New Controller for [forms](/features/forms) |
 | `app/Http/Middleware/VerifyCsrfToken.php` | `protected $except = []` | `protected $except = ['/!/DynamicToken']` |
 | `app/Jobs/GenerateSocialImagesJob.php` |  | The acutal job to [generate social images](https://peak.studio1902.nl/features/social-images-generation.html) for entries.
