@@ -23,7 +23,7 @@ features:
   - title: SEO
     details: Peak comes with full blown professional SEO support including tracker support and a built in cookie banner.
   - title: Social Images
-    details: Let your client generate themed custom social images for all entries.
+    details: Let your client generate themed custom social images for all entries based on your own Tailwind templates.
   - title: A lot more
     details: Responsive assets, browser appearance configuration, favicon generation, button system, dark mode support, forms and more.
 footer: '© 2020 - 2021 | Studio 1902'
