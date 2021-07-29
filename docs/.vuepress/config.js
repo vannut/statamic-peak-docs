@@ -1,7 +1,15 @@
 module.exports = {
+    description: 'Statamic Peak, an opinionated starter kit for all your Statamic sites.',
+    head: [
+      ['link',
+        {
+          rel: 'icon',
+          href: '/favicon.svg'
+        }
+      ]
+    ],
     lang: 'en-US',
     title: 'Statamic Peak Docs',
-    description: 'Statamic Peak, an opinionated starter kit for all your Statamic sites.',
     themeConfig: {
       docsBranch: 'main',
       docsRepo: 'studio1902/statamic-peak-docs',
