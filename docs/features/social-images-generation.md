@@ -21,7 +21,7 @@ Edit `resources/views/social_images.antlers.html` to determine how the images sh
 ## Redis as queue driver
 The actual generation of the images is a job, so it's queued when you use Redis. To enable Redis as a queue driver make sure it's installed on your server. When you use Ploi or Forge this is done automatically.
 
-Enable Redis by setting `QUEUE_CONNECTION=redis` in your `.env` file. Make sure you start a queue worker in Ploi or Forge for your current site. Use `redis` as a connection and set the current `environment`. 
+Enable Redis by setting `QUEUE_CONNECTION=redis` in your `.env` file. Make sure you start a queue worker in Ploi or Forge for your current site. Use `redis` as a connection and set the current `environment`.
 
 
 ## Generate the images
@@ -29,7 +29,7 @@ Once you've opted in the collections you want this available for you can select 
 
 | Global configuration | Generating the images |
 |---|---|
-| [![Forms backend](https://cdn.studio1902.nl/assets/statamic-peak/screenshots/v1.28.0/social-images-01.png)](https://cdn.studio1902.nl/assets/statamic-peak/screenshots/v1.28.0/social-images-01.png) | [![Forms frontend](https://cdn.studio1902.nl/assets/statamic-peak/screenshots/v1.28.0/social-images-02.png)](https://cdn.studio1902.nl/assets/statamic-peak/screenshots/v1.28.0/social-images-02.png) |
+| [![Forms backend](/visuals/screenshots/social-images-01.png)](/visuals/screenshots/social-images-01.png) | [![Forms frontend](/visuals/screenshots/social-images-02.png)](/visuals/screenshots/social-images-02.png) |
 
 
 ## Listable columns
@@ -37,7 +37,7 @@ Note that you could opt to toggle the `Social image` and `Twitter image` fields 
 
 | Listable columns |
 |---|
-| [![Listable columns](https://cdn.studio1902.nl/assets/statamic-peak/screenshots/v1.28.0/social-images-03.png)](https://cdn.studio1902.nl/assets/statamic-peak/screenshots/v1.28.0/social-images-03.png) |
+| [![Listable columns](/visuals/screenshots/social-images-03.png)](/visuals/screenshots/social-images-03.png) |
 
 ## Remove feature
 By default the toggle to turn this feature on is only visibles to superusers. However if you completely want to remove this feature do the following:
