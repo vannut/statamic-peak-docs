@@ -6,7 +6,7 @@ If the layout of a page is totally different - or you really want to - you can a
 
 | Page builder |
 |---|
-| [![Page builder](/visuals/screenshots/page-builder.png)](/visuals/screenshots/page-builder.png) |
+| ![Page builder](/visuals/screenshots/page-builder.png) |
 
 ## Adding blocks
 Edit `resources/fieldsets/page_builder.yaml` to add blocks (preferably imports) to the fieldset. In `resources/views/default.antlers.html` you can see the blocks being loaded. Antlers will look in the `resources/views/page_builder/` folder for partials with the handle of your block. Peak ships with the following blocks:

@@ -25,11 +25,11 @@ Peak includes full SEO support. It's easy to expand on since it's all built with
 
 | Globals error messages  | Globals SEO  |  Globals Cookie Banner  | Cookie Banner |
 |---|---|---|---|
-| [![SEO globals JSON-ld](/visuals/screenshots/seo-globals-01.png)](/visuals/screenshots/seo-globals-01.png) | [![SEO globals sitemap](/visuals/screenshots/seo-globals-02.png)](/visuals/screenshots/seo-globals-02.png) | [![SEO globals cookie banner](/visuals/screenshots/cookie-banner-config.png)](/visuals/screenshots/cookie-banner-config.png) | [![Cookie banner](/visuals/screenshots/cookie-banner.png)](/visuals/screenshots/cookie-banner.png) |
+| ![SEO globals JSON-ld](/visuals/screenshots/seo-globals-01.png) | ![SEO globals sitemap](/visuals/screenshots/seo-globals-02.png) | ![SEO globals cookie banner](/visuals/screenshots/cookie-banner-config.png) | ![Cookie banner](/visuals/screenshots/cookie-banner.png) |
 
 | Entry specific SEO |
 |---|
-| [![Page builder](/visuals/screenshots/entry-seo.png)](/visuals/screenshots/entry-seo.png) |
+| ![Page builder](/visuals/screenshots/entry-seo.png) |
 
 ## Cookie consent banner
 

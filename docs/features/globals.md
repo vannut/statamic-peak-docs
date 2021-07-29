@@ -4,4 +4,4 @@ Peak currently comes with two global sets you often need, one to edit content on
 
 | Globals error messages  | Globals social media  |
 |---|---|
-| [![Globals error messages](/visuals/screenshots/globals.png)](/visuals/screenshots/globals.png) | [![Globals social media](/visuals/screenshots/social-media.png)](/visuals/screenshots/social-media.png) |
+| ![Globals error messages](/visuals/screenshots/globals.png) | ![Globals social media](/visuals/screenshots/social-media.png) |

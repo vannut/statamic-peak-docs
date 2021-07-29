@@ -4,7 +4,7 @@ The files `resources/fieldsets/buttons.yaml` and `resources/views/components/_bu
 
 | Buttons |
 |---|
-| [![Buttons](/visuals/screenshots/button.png)](/visuals/screenshots/button.png) |
+| ![Buttons](/visuals/screenshots/button.png) |
 
 ## Rendering a single button
 

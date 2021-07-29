@@ -27,4 +27,4 @@ For example use the sizing utilities to let an image break out of it's content. 
 
 | Bard sizing utilities |
 |---|
-| [![Bard sizing utilities](/visuals/screenshots/bard.png)](/visuals/screenshots/bard.png) |
+| ![Bard sizing utilities](/visuals/screenshots/bard.png) |

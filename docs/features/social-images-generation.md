@@ -29,7 +29,7 @@ Once you've opted in the collections you want this available for you can select 
 
 | Global configuration | Generating the images |
 |---|---|
-| [![Forms backend](/visuals/screenshots/social-images-01.png)](/visuals/screenshots/social-images-01.png) | [![Forms frontend](/visuals/screenshots/social-images-02.png)](/visuals/screenshots/social-images-02.png) |
+| ![Forms backend](/visuals/screenshots/social-images-01.png) | ![Forms frontend](/visuals/screenshots/social-images-02.png) |
 
 
 ## Listable columns
@@ -37,7 +37,7 @@ Note that you could opt to toggle the `Social image` and `Twitter image` fields 
 
 | Listable columns |
 |---|
-| [![Listable columns](/visuals/screenshots/social-images-03.png)](/visuals/screenshots/social-images-03.png) |
+| ![Listable columns](/visuals/screenshots/social-images-03.png) |
 
 ## Remove feature
 By default the toggle to turn this feature on is only visibles to superusers. However if you completely want to remove this feature do the following:

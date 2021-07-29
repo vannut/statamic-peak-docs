@@ -14,7 +14,7 @@ You can set the following properties/meta-tags:
 
 | Browser appearance |
 |---|
-| [![Browser appearance](/visuals/screenshots/browser-appearance.png)](/visuals/screenshots/browser-appearance.png) |
+| ![Browser appearance](/visuals/screenshots/browser-appearance.png) |
 
 ## Favicons
 By uploading a single favicon SVG to the favicons asset container you can generate favicons for modern browsers on the fly. The favicon partial will spit out the following favicons:
@@ -29,4 +29,4 @@ By uploading a single favicon SVG to the favicons asset container you can genera
 
 | Favicons |
 |---|
-| [![Favicons](/visuals/screenshots/favicons.png)](/visuals/screenshots/favicons.png) |
+| ![Favicons](/visuals/screenshots/favicons.png) |

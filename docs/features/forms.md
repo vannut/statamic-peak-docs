@@ -20,4 +20,4 @@ The forms sending is done with fetch and uses Alpine to display the various noti
 
 | Forms backend | Forms frontend  |
 |---|---|
-| [![Forms backend](/visuals/screenshots/forms-backend.png)](/visuals/screenshots/forms-backend.png) | [![Forms frontend](/visuals/screenshots/forms-frontend.png)](/visuals/screenshots/forms-frontend.png) |
+| ![Forms backend](/visuals/screenshots/forms-backend.png) | ![Forms frontend](/visuals/screenshots/forms-frontend.png) |
