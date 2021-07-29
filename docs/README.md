@@ -3,7 +3,7 @@ lang: en-US
 title: Welcome
 description: Statamic Peak, an opinionated starter kit for all your Statamic sites.
 home: true
-heroImage: ./visuals/statamic-peak-logo.svg
+heroImage: ./visuals/statamic-peak-logo-wide.svg
 heroText: Start out on top
 tagline: A Statamic Starter Kit
 actions:
