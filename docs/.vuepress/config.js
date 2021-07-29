@@ -42,9 +42,9 @@ module.exports = {
       sidebar: [
         {
           text: 'Getting started',
-          link: '/getting-started/about.md',
+          link: '/getting-started/welcome.md',
           children: [
-            '/getting-started/about.md',
+            '/getting-started/welcome.md',
             '/getting-started/installation.md',
             '/getting-started/knowledge-assumptions.md',
             '/getting-started/tailwind-css.md',

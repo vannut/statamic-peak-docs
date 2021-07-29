@@ -5,3 +5,5 @@ Statamic Peak is an opinionated starter kit for all your Statamic sites. It's de
 The aim of Peak is to make it easy to start new projects as they often share much of the same principles. Whether you're new to Statamic or a veteran, there will be something interesting in here for you. Please participate and discuss on how to make our websites better.
 
 Maintaining Peak demands a lot of my time and it probably saves you a lot. Your sponsoring would mean a great deal to me as it makes it much easier for me to maintain this project and keep improving it. [Sponsor me](https://github.com/sponsors/studio1902).
+
+The Peak branding is done by Jouke Zult from [Mistral Merkactivisten](https://mistralmerkactivisten.nl). Thank you so much!

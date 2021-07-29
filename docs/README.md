@@ -8,7 +8,7 @@ heroText: Start out on top
 tagline: A Statamic Starter Kit
 actions:
   - text: Get Started
-    link: /getting-started/about.html
+    link: /getting-started/welcome.html
     type: primary
   - text: Features
     link: /features/assets.html
