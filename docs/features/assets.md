@@ -11,7 +11,7 @@ Peak comes with a picture partial that will add responsive sourcesets to your im
 The following example renders an image and object-fills it's wrapping container: 
 
 ```html
-{{ partial:components/picture :image="image" cover="true" class="w-full h-full" sizes="(min-width: 768px) 35vw, 90vw" }}
+{{ partial:components/picture :image="image" cover="true" sizes="(min-width: 768px) 35vw, 90vw" }}
 ```
 
 See [this article](https://studio1902.nl/blog/responsive-images-with-statamic-tailwind-and-glide/) for more information.
